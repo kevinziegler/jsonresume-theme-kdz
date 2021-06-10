@@ -1,11 +1,11 @@
 {
-  "name": "jsonresume-theme-boilerplate",
+  "name": "jsonresume-theme-kdz",
   "version": "0.1.2",
-  "description": "Boilerplate theme for JSON Resume",
-  "author": "Mattias Erming",
+  "description": "Personal theme for Json-resume",
+  "author": "Kevin Ziegler",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erming/jsonresume-theme-boilerplate"
+    "url": "https://github.com/kevinziegler/jsonresume-theme-kdz"
   },
   "license": "MIT",
   "dependencies": {
