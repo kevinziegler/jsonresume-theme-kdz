@@ -1,0 +1,12 @@
+<div class="summary">
+  {{> skills }}
+  {{> contact }}
+
+  <section class="personal">
+    <h1 class="name">{{name}}</h1>
+    <div class="title">Software Engineer, BS in Computer Science</div>
+    {{#if city}}<p>{{city}}, {{region}}</p>{{/if}}
+    {{#if phone}}<p>{{phone}}</p>{{/if}}
+    {{#if email}}<p>{{email}}</p>{{/if}}
+  </section>
+</div>
