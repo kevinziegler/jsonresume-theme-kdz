@@ -4,14 +4,13 @@
   {{#each resume.education}}
   <div class="item">
     <div class="overview">
-      <div class="info description">{{institution}}</div>
+      <div class="info description">
+        {{institution}}, {{studyType}} in {{area}}
+      </div>
       {{> tenure }}
     </div>
-    <div>{{studyType}} in {{area}}</div>
     {{#if courses.length}}
-    <ul>
-      {{#each courses }}<li>{{.}}</li>{{/each}}
-    </ul>
+    <ul>{{#each courses }}<li>{{.}}</li>{{/each}}</ul>
     {{/if}}
   </div>
   {{/each}}
