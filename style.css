@@ -110,3 +110,9 @@ section {
     text-align: right;
     color: lightslategray;
 }
+
+@media print {
+    .item ul {
+        break-inside: avoid;
+    }
+}
