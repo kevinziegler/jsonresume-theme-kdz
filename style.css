@@ -101,12 +101,12 @@ section {
 }
 
 .item .description {
-    width: 50%;
+    width: 70%;
     font-weight: bold;
 }
 
 .item .dates {
-    width: 50%;
+    width: 30%;
     text-align: right;
     color: lightslategray;
 }
